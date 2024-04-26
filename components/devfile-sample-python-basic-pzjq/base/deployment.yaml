@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-pzjq
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/psturc_org/build-e2e-nfbq-tenant/test-app-qryd/devfile-sample-python-basic-pzjq@sha256:2a3ffb1437c834e0c373e2d2acdc0d87b249cc796c260e798432877e04bb0222
         name: my-python
         ports:
         - containerPort: 8081
